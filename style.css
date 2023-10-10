@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(59, 59, 62) !important;
+ 
+}
+
+.container {
+    min-height: 100vh;
+    background-color: rgb(59, 59, 62) !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.question-footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+}
+
+.quiz-card {
+    width: 30rem;
+}
+
+.quiz-answer-card:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.071);
+}
+
+.bg-success, .bg-danger {
+    color: white;
+}
+
+.width-100 {
+    width: 100%;
+}
+.text-center {
+    text-align: center;
+}
+
+
+.final-headline {
+    font-size: 38px;
+    margin-bottom: 32px;
+}
