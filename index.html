@@ -28,6 +28,9 @@
 
       <div class="card quiz-card">
         <img src="./img/quozfoto.jpg" id="header-image" class="card-img-top" alt="...">
+        <div class="progress">
+            <div class="progress-bar" id="progress-bar" role="progressbar" style="width: 0%;">25%</div>
+          </div>
 
 
 
@@ -42,6 +45,11 @@
               Du hast <b id="amount-of-right-questions">XXX</b> Fragen von <b id="amount-of-questions">XXX</b> Antworten richtig beantwortet
             </div>
         </div>
+
+        <div class="button-row">
+        <button onclick="restartGame()" class="btn btn-dark">Erneut spielen</button>
+        </div>
+
 
 
         <div class="card-body" id="questionBody">
